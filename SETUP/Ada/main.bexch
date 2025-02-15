@@ -1,0 +1,18 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/krzysztof/Desktop/Template/Ada/main.gpr
+20241013175644 9f7131dfff2aeff6f4584ffa627e7ed6
+[BOUND OBJECT FILES]
+/home/krzysztof/Desktop/Template/Ada/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/krzysztof/Desktop/Template/Ada/
+-L/home/krzysztof/Desktop/Template/Ada/
+-L/usr/lib/gcc/x86_64-linux-gnu/13/adalib/
+-shared
+-lgnat-13
+-ldl
