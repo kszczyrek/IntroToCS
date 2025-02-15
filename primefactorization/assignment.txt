@@ -1,0 +1,8 @@
+Implement a program that prints the prime factorization of a given number. The algorithm should format the output using exponent notation, as shown in the examples below:
+
+24 = 2^3 * 3  
+1000 = 2^3 * 5^3  
+10009 = 10009  
+90081 = 3^2 * 10009  
+
+The algorithm should be optimized according to the solution from the exercises.

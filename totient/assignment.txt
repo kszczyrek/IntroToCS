@@ -1,0 +1,16 @@
+reate a library containing the following function:
+
+- `unsigned totient(unsigned n)`: Returns the count of numbers less than or equal to `n` that are relatively prime to `n`.  
+
+Use the previously implemented algorithm for prime factorization.  
+
+Then, write a main program that reads a sequence of numbers from the command line arguments and prints the corresponding results.  
+
+Example usage of the compiled program: 
+$ ./program 1 11 100 5000 12345678
+
+ totient(1) = 1
+ totient(11) = 10
+ totient(100) = 40
+ totient(5000) = 2000
+ totient(12345678) = 4027392

@@ -1,26 +1,27 @@
 #include <stdio.h>
 
 int main(void) {
-    //Zmienne
-    int a, x, b = 0;
-
-    //Intefejs
-    printf("Wpisz liczbe ktore chcesz sprawdzic czy jest palindromem: ");
-      scanf("%d", &x);
-
-    //Algorytm odwracajacy x i zapisujacy go pod zmienna m
-    a = x;
-    while (a > 0) {
-    b = b * 10 + (a % 10);
-    a /= 10;             
+    // Deklaracja zmiennych
+      int liczba, liczba_kopia, odwrocona_liczba, system, reszta;
+    // Interfejs i wprowadzenie danych
+      printf("Podaj liczbe: ");
+      scanf("%d", &liczba);
+      printf("Podaj system: ");
+      scanf("%d", &system);
+    // Algorytm odwracajacy liczbe
+    liczba_kopia = liczba;
+    odwrocona_liczba = 0;
+    while (liczba_kopia > 0) {
+        reszta = liczba_kopia % system;
+        liczba_kopia = liczba_kopia / system;
+        odwrocona_liczba = odwrocona_liczba * system + reszta;
     }
-  
-    //Instrukcja warunkowa sprawdzajaca czy x jest palindromem
-    if (x == b) {
-        printf("%d jest palindromem!\n", x);
-  } else {
-        printf("%d nie jest palindromem!\n", x);
-  } 
-
+    // Sprawdzenie czy to palindrom w podanym systemie
+    if (odwrocona_liczba == liczba) {
+        printf("To palindrom\n");
+    }
+    else {
+        printf("To nie palindrom\n");        
+    }
     return 0;
 }

@@ -1,0 +1,15 @@
+Create a library containing the following functions:
+
+- `unsigned prime_numbers(unsigned n)`: Returns the count of prime numbers less than or equal to `n`.  
+- `unsigned prime(unsigned n)`: Returns the `n`-th prime number.  
+- `bool is_prime(unsigned n)`: Checks whether the given number is prime.  
+
+Then, write a main program that reads a command and a number from the command line arguments and prints the corresponding result. The available commands are:
+
+- `pn` for counting prime numbers up to `n`.  
+- `pr` for finding the `n`-th prime number.  
+- `ip` for checking if `n` is prime.  
+
+Example usage of the compiled program:
+
+$ ./program pn 100 25 $ ./program pr 25 97 $ ./program ip 100 false $ ./program ip 97 true

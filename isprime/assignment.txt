@@ -1,0 +1,1 @@
+Implement a program that checks whether a given number is prime. The checking algorithm should be implemented as a function. The algorithm should be optimized according to the exercises.

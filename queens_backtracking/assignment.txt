@@ -1,0 +1,7 @@
+Write a program that solves the N-Queens problem as follows:
+1. Generate all possible placements for N queens on an NxN chessboard.
+2. For each placement, check if it's a valid solution (i.e., no queens are attacking each other diagonally or in the same row).
+
+The program should receive an integer `n` as a command-line argument and print all the solutions it finds, followed by the total number of solutions.
+
+Check the number of solutions for `n` from 1 to 12 and compare the performance of this backtracking algorithm with other algorithms.

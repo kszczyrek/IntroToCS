@@ -1,0 +1,1 @@
+Implement a program that finds the `n`-th prime number for a given `n`. The program should include a function that computes this number using a procedure with an array, as developed in the exercises.

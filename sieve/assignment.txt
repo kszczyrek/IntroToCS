@@ -1,0 +1,1 @@
+Improve the given program that finds the number of prime numbers not greater than a given `n`. Add input validation and appropriate messages for reading data and displaying results.

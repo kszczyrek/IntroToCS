@@ -1,0 +1,1 @@
+Implement a program that calculates the value of the Newton binomial coefficient for given `n` and `k`. The program should include a function that computes the coefficient using an iterative method with an array, as developed in the exercises.

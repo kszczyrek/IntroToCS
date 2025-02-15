@@ -1,0 +1,4 @@
+Write a program that solves the N-Queens problem using the following algorithm:
+Generate all possible n-element permutations (use the function from the exercises list) and then check each permutation to see if it's a solution (i.e., if there are no attacking queens on the diagonals).
+
+The program, after receiving n as a command-line argument, should print all the found solutions and, at the end, output the total number of solutions.

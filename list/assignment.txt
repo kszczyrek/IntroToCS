@@ -1,0 +1,12 @@
+Modify the linked list implementation with the following changes:
+
+- Add a `length` field to the list structure to store the current number of elements. Modify all relevant functions accordingly, especially the one returning the list length.
+- Assume list elements are implicitly numbered from `1` to the list's length. Implement the following operations:
+
+  - `get(l, i)`: Returns the value of the `i`-th element without modifying the list.
+  - `put(l, i, e)`: Replaces the value of the `i`-th element with `e`.
+  - `insert(l, i, e)`: Inserts a new element `e` between elements `i-1` and `i`. Special cases:  
+  - `insert(l, 1, e) = push(l, e)`  
+  - `insert(l, length(l) + 1, e) = append(l, e)`  
+  - `delete(l, i)`: Removes the `i`-th element from the list.
+  - `clean(l)`: Removes all elements from the list.

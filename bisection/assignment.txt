@@ -1,0 +1,9 @@
+Assume that a function `f` of type `functype` calculates the value of a continuous function `f(x)`.
+Write a function:
+
+double findzero(functype f, double a, double b, double eps),
+
+which, for the given endpoints of the interval [a, b], where a < b and f(a) · f(b) < 0, finds the zero of the function that satisfies the equation f(x) = 0, for a ≤ x ≤ b, with the specified accuracy ε > 0 (i.e., the found value differs from the actual one by no more than ε).
+Use the bisection method.
+
+Test your program for f(x) = cos(x/2), a = 2, b = 4, and ε ∈ {10^(-k) : k = 1, 2, ..., 8}.
