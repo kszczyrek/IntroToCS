@@ -1,0 +1,1 @@
+Modify the program presented in the lecture that implements the Euclidean algorithm to use the modulo operation instead. Test its functionality.
