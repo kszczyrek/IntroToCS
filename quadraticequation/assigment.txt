@@ -1,0 +1,12 @@
+Write a program that reads three real numbers: a, b, and c, then solves the quadratic equation:
+
+a * x^2 + b * x + c = 0
+
+Use a floating-point type for the calculations and ensure proper input and output formatting for real numbers. Additionally, include the necessary mathematical library to use the square root function.
+
+When compiling the program, make sure to link the required math library.
+
+The program should:
+- Print a message indicating that there is no real solution if the equation has no real roots.
+- Display a single solution if the discriminant (Δ) is zero.
+- Print two distinct solutions if the discriminant is positive.

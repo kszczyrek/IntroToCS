@@ -5,4 +5,4 @@ On classes we were consulting and preparing programs and algorithms in pseudo-co
 - C
 - Python
 
-Some of the variables and comments are written in polish
+Most of the code is written in polish
